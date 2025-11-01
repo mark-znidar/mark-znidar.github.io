@@ -43,6 +43,10 @@ body {
 	.sidebar {
 		display: none;
 	}
+	
+	#profile_pic {
+		width: 129.6px;
+	}
 }
 
 #profile_pic {
