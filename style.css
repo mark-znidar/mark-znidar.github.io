@@ -27,12 +27,21 @@ body {
 }
 
 @media (max-width: 900px) {
+	body {
+		padding: 1em;
+		max-width: 720px;
+	}
+	
 	.container {
 		flex-direction: column;
 	}
 	
+	.main-content {
+		max-width: 100%;
+	}
+	
 	.sidebar {
-		width: 100%;
+		display: none;
 	}
 }
 
