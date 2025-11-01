@@ -73,6 +73,42 @@ b {
 	font-weight: 600;
 }
 
+.coauthors {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	margin-top: 1.5rem;
+}
+
+.coauthor {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 120px;
+}
+
+.coauthor img {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	object-fit: cover;
+	margin-bottom: 0.5rem;
+}
+
+.coauthor a {
+	font-weight: 500;
+	font-size: 0.9rem;
+	display: block;
+	margin-bottom: 0.25rem;
+}
+
+.coauthor span {
+	font-size: 0.75rem;
+	color: #666;
+	line-height: 1.2;
+}
+
 footer {
 	margin-top: 3rem;
 	color: #888;
