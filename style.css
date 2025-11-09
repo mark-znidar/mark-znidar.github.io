@@ -151,21 +151,29 @@ footer {
 	text-align: center;
 }
 
+/* Title + badge container for publications */
+.pub-header {
+	display: inline-flex;
+	align-items: center;
+	gap: 0.75rem;
+	flex-wrap: wrap;
+}
+
 /* Award badge next to ICDM paper */
 .award-badge {
-	display: inline-block;
-	margin-left: 0.75rem;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
 	padding: 0.15rem 0.6rem;
 	border-radius: 6px;
 	border: 1.5px solid green;       /* clear green border */
-	background-color: #e6f4ea;       /* light green fill – clearly visible */
-	color: #0b5d1e;                  /* darker green text for contrast */
+	background-color: #e6f4ea;       /* light green fill */
+	color: #0b5d1e;                  /* darker green text */
 	font-size: 0.7rem;
 	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
 	white-space: nowrap;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);  /* subtle depth */
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
 	vertical-align: middle;
 }
-
