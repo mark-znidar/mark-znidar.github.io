@@ -154,14 +154,16 @@ footer {
 /* Award badge next to ICDM paper */
 .award-badge {
 	display: inline-block;
-	margin-left: 0.5rem;
-	padding: 0.05rem 0.5rem;
-	border-radius: 999px;
-	border: 1px solid #f0b400;
-	font-size: 0.65rem;
+	margin-left: 0.75rem;
+	padding: 0.15rem 0.7rem;
+	border-radius: 8px;
+	border: 1.5px solid #ff9800; /* warm orange */
+	background-color: #fff8eb;   /* soft, light orange */
+	color: green;                /* matches existing accent color */
+	font-size: 0.7rem;
 	font-weight: 600;
 	text-transform: uppercase;
-	letter-spacing: 0.06em;
-	background-color: #fff9e6;
+	letter-spacing: 0.08em;
 	white-space: nowrap;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
 }
