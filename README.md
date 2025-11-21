@@ -1,1 +1,1 @@
-Webpage accessible at https://mark-znidar.github.io/.
+Website accessible at https://mark-znidar.github.io/.
