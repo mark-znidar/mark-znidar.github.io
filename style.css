@@ -159,6 +159,14 @@ footer {
 	flex-wrap: wrap;
 }
 
+.inline-emoji {
+	height: 1em;
+	width: 1em;
+	vertical-align: -0.1em;
+	display: inline;
+	margin: 0 0.15em;
+}
+
 /* Award badge next to ICDM paper */
 .award-badge {
 	display: inline-flex;
