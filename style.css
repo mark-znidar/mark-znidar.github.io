@@ -162,9 +162,9 @@ footer {
 .inline-emoji {
 	height: 1em;
 	width: 1em;
-	vertical-align: -0.1em;
+	vertical-align: -0.15em;
 	display: inline;
-	margin: 0 0.15em;
+	margin-right: 0.3em;
 }
 
 /* Award badge next to ICDM paper */
